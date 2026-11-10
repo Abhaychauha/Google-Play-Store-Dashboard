@@ -212,9 +212,4 @@ df = pd.read_csv("data/googleplaystore.csv")
 
 ---
 
-## 👤 Author
 
-**Your Name**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · your.email@example.com
-
-⭐ If you found this project useful, consider giving it a star.
