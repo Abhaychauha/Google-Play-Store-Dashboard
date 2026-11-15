@@ -1,4 +1,4 @@
-# 📱 App Insights Unlocked: Google Play Store Analytics
+#  App Insights Unlocked: Google Play Store Analytics
 
 **What makes an app succeed on the Google Play Store?** An end-to-end data analytics project that cleans ~10,800 Play Store records, answers 25 business questions in Python/pandas, and presents the findings in an interactive two-page **Power BI** dashboard.
 
@@ -8,24 +8,9 @@
 
 ---
 
-## 📌 Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Business Questions](#-business-questions)
-- [Dataset](#-dataset)
-- [Repository Structure](#-repository-structure)
-- [Data Cleaning](#-data-cleaning)
-- [Dashboard](#-dashboard)
-- [Key Insights](#-key-insights)
-- [Recommendations](#-recommendations)
-- [How to Run](#-how-to-run)
-- [Limitations](#-limitations)
-- [Tools and Skills](#-tools-and-skills)
-- [Author](#-author)
 
----
-
-## 🎯 Project Overview
+##  Project Overview
 
 **Scenario.** You are a data analyst at a mobile-app company that has acquired Google Play Store data. Product managers, developers, marketers and senior management want to know what drives app ratings, installs and reviews, so they can improve their own app strategy.
 
@@ -38,7 +23,7 @@
 
 ---
 
-## ❓ Business Questions
+##  Business Questions
 
 The analysis answers **25 questions** (10 basic, 10 medium, 5 advanced), including:
 
@@ -48,11 +33,11 @@ The analysis answers **25 questions** (10 basic, 10 medium, 5 advanced), includi
 - How does the rating change as an app gains installs (binned analysis)?
 - How often are apps updated, and are there update trends?
 
-👉 Full answers with code, explanations and business impact: **[Solution_Guide.md](Solution_Guide.md)**
+ Full answers with code, explanations and business impact: **[Solution_Guide.md](Solution_Guide.md)**
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Source:** [Google Play Store Apps, Kaggle (lava18)](https://www.kaggle.com/datasets/lava18/google-play-store-apps) · file `googleplaystore.csv`
 **Snapshot date:** August 2018 (latest `Last Updated` = 8 Aug 2018)
@@ -79,7 +64,7 @@ The analysis answers **25 questions** (10 basic, 10 medium, 5 advanced), includi
 
 ---
 
-## 🗂 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -98,7 +83,7 @@ The analysis answers **25 questions** (10 basic, 10 medium, 5 advanced), includi
 
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 | Step | Action |
 |---|---|
@@ -113,7 +98,7 @@ The analysis answers **25 questions** (10 basic, 10 medium, 5 advanced), includi
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 
 An interactive **Power BI** report (`dashboard/Googleplaystore_Dashboard.pbix`) with two pages and shared slicers for **Category, Genres, Year and Content Rating**.
 
@@ -130,7 +115,7 @@ An interactive **Power BI** report (`dashboard/Googleplaystore_Dashboard.pbix`) 
 - Column charts: installs and reviews by app
 - Ribbon chart: category rank by installs over the years
 
-> 📸 *Add screenshots to `images/` and uncomment the lines below.*
+>  *Add screenshots to `images/` and uncomment the lines below.*
 >
 > <!-- ![Overview](images/page1_overview.png) -->
 > <!-- ![Installs](images/page2_installs.png) -->
@@ -139,7 +124,7 @@ An interactive **Power BI** report (`dashboard/Googleplaystore_Dashboard.pbix`) 
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 | # | Insight | Evidence |
 |---|---|---|
@@ -158,7 +143,7 @@ Full tables and explanations are in the [Solution Guide](Solution_Guide.md).
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
 1. **Launch free** with ads or in-app purchases; if paid, price at **$1-5**.
 2. **Choose categories deliberately**: Games/Communication for reach, Education/Books/Art for quality-led wins.
@@ -171,7 +156,7 @@ Full tables and explanations are in the [Solution Guide](Solution_Guide.md).
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 **Python analysis**
 
@@ -195,7 +180,7 @@ df = pd.read_csv("data/googleplaystore.csv")
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Single **August 2018** snapshot, so no time series of ratings or installs.
 - **Installs are buckets** (`1,000+`), so totals are lower-bound estimates.
@@ -206,7 +191,7 @@ df = pd.read_csv("data/googleplaystore.csv")
 
 ---
 
-## 🛠 Tools and Skills
+##  Tools and Skills
 
 `Power BI` · `DAX` · `Python` · `pandas` · `NumPy` · `Data cleaning` · `Exploratory data analysis` · `Binned and correlation analysis` · `Data visualization` · `Business storytelling`
 
